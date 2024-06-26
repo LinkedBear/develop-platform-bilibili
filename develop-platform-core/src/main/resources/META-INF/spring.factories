@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.linkedbear.platform.core.autoconfigure.DefaultPropertiesEnvironmentPostProcessor
+
+org.springframework.boot.SpringApplicationRunListener=\
+  com.linkedbear.platform.core.autoconfigure.ContextHolderRunListener

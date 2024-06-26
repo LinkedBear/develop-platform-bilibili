@@ -1,0 +1,6 @@
+springdoc:
+  group-configs:
+    - group: default
+      display-name: 默认分组
+      packages-to-scan:
+        - com.linkedbear.platform.application.controller
