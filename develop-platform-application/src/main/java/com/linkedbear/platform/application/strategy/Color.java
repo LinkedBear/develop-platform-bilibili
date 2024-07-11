@@ -1,18 +1,15 @@
-package com.linkedbear.platform.application.vo;
+package com.linkedbear.platform.application.strategy;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Person {
+public class Color {
     
     private String name;
     
-    private Date birthday;
-    
+    private Integer size;
 }

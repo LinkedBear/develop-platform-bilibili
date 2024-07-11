@@ -8,6 +8,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * SpringBoot3.x中可不用
+ */
 @Getter
 @Setter
 @ConfigurationProperties(prefix = "platform.swagger")

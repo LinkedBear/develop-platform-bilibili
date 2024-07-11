@@ -28,6 +28,12 @@ public class MethodContext<T> {
         this.data = data;
     }
     
+    public MethodContext(T data, MethodContext<T> old) {
+        this();
+        this.data = data;
+        this.old = old;
+    }
+    
     public static <E> MethodContext<E> getContext() {
         return MethodAdvisorAspect.getContext();
     }

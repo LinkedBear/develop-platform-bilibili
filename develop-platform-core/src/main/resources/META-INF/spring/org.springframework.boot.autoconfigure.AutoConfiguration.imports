@@ -4,3 +4,4 @@ com.linkedbear.platform.core.autoconfigure.OperationLogAutoConfiguration
 com.linkedbear.platform.core.autoconfigure.BusinessLogAutoConfiguration
 com.linkedbear.platform.core.autoconfigure.RequestLimitAutoConfiguration
 com.linkedbear.platform.core.autoconfigure.MethodAdvisorAutoConfiguration
+com.linkedbear.platform.core.autoconfigure.XssAutoConfiguration

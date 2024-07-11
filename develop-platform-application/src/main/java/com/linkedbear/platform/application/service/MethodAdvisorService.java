@@ -25,7 +25,7 @@ public class MethodAdvisorService {
     private OperationLogWriter operationLogWriter;
     
     @MethodAdvisors({LogAdvisor.class, StopWatchAdvisor.class, BusinessLogAdvisor.class})
-    public void test() {
+    public void test(String name) {
         System.out.println("MethodAdvisorService 执行业务逻辑 ......");
         try {
             Thread.sleep(500 + RandomUtil.randomInt(100));

@@ -45,7 +45,7 @@ public class DemoController {
     
     @GetMapping("/testMethodAdvisor")
     public String testMethodAdvisor() {
-        methodAdvisorService.test();
+        methodAdvisorService.test("haha");
         return "success";
     }
 }
